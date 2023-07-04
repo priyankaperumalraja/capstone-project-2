@@ -1,0 +1,27 @@
+.img-curve{
+    width: 20rem;
+    border-radius: 7%;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #FA0D31, #650DFA, #DE0B95);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  .profile-img {
+    border-radius: 50%;
+    height: 150px;
+  }
